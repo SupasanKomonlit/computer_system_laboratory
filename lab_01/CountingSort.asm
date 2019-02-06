@@ -4,6 +4,8 @@
 
 .data # declares variavle names used in program and will allocated in main memmory (RAM)
 
+	test	:	.asciiz "abcdefg" 
+
 	count_char		:	.space 1024 # allocate for int32 * 256 element
 									 # 1 int32 is 4 bytes so have to allcate 256*4
 
