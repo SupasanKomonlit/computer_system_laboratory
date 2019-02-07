@@ -49,6 +49,7 @@ set_member_zero:
 	syscall							# interrupt to print
 	la		$a0 , space
 	syscall
+
 print_all_member:
 	sll		$t9 , $t8 , 2
 	li		$v0 , 1				
